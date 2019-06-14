@@ -10,9 +10,9 @@
         <link rel="stylesheet" href="assets/css/style.css">
         <title>LoopLAB</title>
     </head>
-    <body>
+    <body data-spy="scroll" data-target="#main-nav" id="home">
         <!-- Start Navbar -->
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="main-nav">
             <div class="container">
                 <a class="navbar-brand" href="#">LoopLAB</a>
                 <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
@@ -21,16 +21,16 @@
                 <div class="collapse navbar-collapse" id="navbarCollapse">
                     <ul class="navbar-nav ml-auto">
                         <li class="nav-item active">
-                            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                            <a class="nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Explore</a>
+                            <a href="#explore-head-section" class="nav-link" href="#">Explore</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Create</a>
+                            <a href="#create-head-section" class="nav-link" href="#">Create</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Share</a>
+                            <a href="#share-head-section" class="nav-link" href="#">Share</a>
                         </li>
                     </ul>
                 </div>
